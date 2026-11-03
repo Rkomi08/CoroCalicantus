@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-10-07" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="it_IT">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="200" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="75" order="1"/>
+        <field id="tpd5" name="Data di fine" width="75" order="2"/>
+        <field id="tpd15" name="Note" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#003333 #999999 #66ffff #ff0033 #ccccff #009999 #3333ff #ffff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="199" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="82" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="5be27a7880934d05bf2a6c18f8a2f568" name="Stakeholder matrix" color="#ffff00" meeting="false" start="2026-10-13" duration="4" complete="100" expand="true"/>
+        <task id="1" uid="88692ce986bf47b0bb05b3dd1ecf76b7" name="Project Charter" color="#3333ff" meeting="false" start="2026-10-16" duration="1" complete="100" expand="true"/>
+        <task id="2" uid="85f012eb16294444abce5c426e18d87a" name="WBS" color="#009999" meeting="false" start="2026-10-23" duration="1" complete="100" expand="true"/>
+        <task id="3" uid="3769431c80ba4baea160d21062e5643f" name="Gantt Diagram" color="#ccccff" meeting="false" start="2026-10-23" duration="1" complete="100" expand="true"/>
+        <task id="4" uid="c1e6d84311344e12920ee1473251dc18" name="Frontend Developing" color="#ff0033" meeting="false" start="2026-11-03" duration="36" complete="0" expand="true"/>
+        <task id="5" uid="39dee05d787a4bc59a05273799399adb" name="Backend Developing" color="#66ffff" meeting="false" start="2026-11-03" duration="36" complete="0" expand="true"/>
+        <task id="7" uid="6eddd283fe544a7490951e3b88c1d974" name="RE" color="#999999" meeting="false" start="2026-10-30" duration="4" complete="0" expand="true"/>
+        <task id="8" uid="1379cd170ead4764910610c106a46fb0" name="Figma" color="#003333" meeting="false" start="2026-10-30" duration="6" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Castorina Mirko" function="2" contacts="" phone=""/>
+        <resource id="1" name="Concal Robert Alessandro" function="3" contacts="" phone=""/>
+        <resource id="2" name="Pedretti Federico" function="3" contacts="" phone=""/>
+        <resource id="3" name="Sandri Martino" function="2" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Project Manager"/>
+        <role id="2" name="Frontend Developer"/>
+        <role id="3" name="Backend Developer"/>
+    </roles>
+</project>
