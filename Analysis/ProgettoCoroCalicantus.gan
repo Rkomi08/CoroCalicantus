@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-10-01" view-index="0" gantt-divider-location="327" resource-divider-location="300" version="3.3.3312" locale="it_IT">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-09-21" view-index="0" gantt-divider-location="327" resource-divider-location="300" version="3.3.3312" locale="it_IT">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart">
+    <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Nome" width="185" order="0"/>
         <field id="tpd4" name="Data d'inizio" width="70" order="1"/>
         <field id="tpd5" name="Data di fine" width="71" order="2"/>
@@ -43,15 +43,15 @@
         <task id="1" uid="88692ce986bf47b0bb05b3dd1ecf76b7" name="Project Charter" color="#3333ff" meeting="false" start="2026-10-16" duration="1" complete="100" expand="true"/>
         <task id="2" uid="85f012eb16294444abce5c426e18d87a" name="WBS" color="#009999" meeting="false" start="2026-10-23" duration="1" complete="100" expand="true"/>
         <task id="3" uid="3769431c80ba4baea160d21062e5643f" name="Gantt Diagram" color="#ccccff" meeting="false" start="2026-10-23" duration="18" complete="100" expand="true"/>
-        <task id="4" uid="c1e6d84311344e12920ee1473251dc18" name="Frontend Developing" color="#ff0033" meeting="false" start="2026-11-27" duration="23" complete="0" expand="true"/>
-        <task id="5" uid="39dee05d787a4bc59a05273799399adb" name="Backend Developing" color="#66ffff" meeting="false" start="2026-11-27" duration="23" complete="0" expand="true"/>
-        <task id="7" uid="6eddd283fe544a7490951e3b88c1d974" name="RE" color="#999999" meeting="false" start="2026-10-30" duration="4" complete="0" expand="true"/>
+        <task id="4" uid="c1e6d84311344e12920ee1473251dc18" name="Frontend Developing" color="#ff0033" meeting="false" start="2026-12-01" duration="21" complete="0" expand="true"/>
+        <task id="5" uid="39dee05d787a4bc59a05273799399adb" name="Backend Developing" color="#66ffff" meeting="false" start="2026-12-01" duration="21" complete="0" expand="true"/>
+        <task id="7" uid="6eddd283fe544a7490951e3b88c1d974" name="RE" color="#999999" meeting="false" start="2026-10-30" duration="18" complete="100" expand="true"/>
         <task id="8" uid="1379cd170ead4764910610c106a46fb0" name="Figma" color="#003333" meeting="false" start="2026-11-13" duration="6" complete="30" expand="true"/>
         <task id="9" uid="6c7d30243f4047fda809c28d1227207d" name="Swot Analysis" meeting="false" start="2026-11-10" duration="1" complete="100" expand="true"/>
         <task id="10" uid="b0005893979345808f2aa52d663800b5" name="Cost Estimation" color="#33ffff" meeting="false" start="2026-11-13" duration="3" complete="100" expand="true"/>
         <task id="11" uid="55dd76215dd14d08ae20c4e5c6c096f9" name="GitHub" color="#ffccff" meeting="false" start="2026-11-13" duration="1" complete="100" expand="true"/>
-        <task id="12" uid="81ea268cb84a4557a4c726c40240d534" name="System Architecture Diagram" color="#ccffcc" meeting="false" start="2026-11-17" duration="4" complete="50" expand="true"/>
-        <task id="13" uid="cc4327f92c2c46eea1c0f0011638db72" name="Project Presentation" color="#ff3333" meeting="false" start="2026-11-24" duration="4" complete="0" expand="true"/>
+        <task id="12" uid="81ea268cb84a4557a4c726c40240d534" name="System Architecture Diagram" color="#ccffcc" meeting="false" start="2026-11-20" duration="3" complete="100" expand="true"/>
+        <task id="13" uid="cc4327f92c2c46eea1c0f0011638db72" name="Project Presentation" color="#ff3333" meeting="false" start="2026-11-27" duration="3" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Castorina Mirko" function="1" contacts="" phone=""/>
@@ -74,7 +74,6 @@
         <allocation task-id="8" resource-id="1" function="3" responsible="false" load="100.0"/>
         <allocation task-id="9" resource-id="1" function="3" responsible="false" load="100.0"/>
         <allocation task-id="11" resource-id="1" function="2" responsible="true" load="100.0"/>
-        <allocation task-id="12" resource-id="1" function="2" responsible="true" load="100.0"/>
         <allocation task-id="0" resource-id="2" function="3" responsible="false" load="100.0"/>
         <allocation task-id="1" resource-id="2" function="3" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="2" function="3" responsible="true" load="100.0"/>
@@ -83,17 +82,17 @@
         <allocation task-id="8" resource-id="2" function="3" responsible="false" load="100.0"/>
         <allocation task-id="9" resource-id="2" function="3" responsible="true" load="100.0"/>
         <allocation task-id="10" resource-id="2" function="3" responsible="true" load="100.0"/>
-        <allocation task-id="12" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="3" responsible="true" load="100.0"/>
         <allocation task-id="13" resource-id="2" function="3" responsible="false" load="100.0"/>
         <allocation task-id="0" resource-id="3" function="2" responsible="false" load="100.0"/>
         <allocation task-id="1" resource-id="3" function="2" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="3" function="2" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="3" function="2" responsible="false" load="100.0"/>
         <allocation task-id="7" resource-id="3" function="2" responsible="false" load="100.0"/>
-        <allocation task-id="8" resource-id="3" function="2" responsible="false" load="100.0"/>
         <allocation task-id="10" resource-id="3" function="2" responsible="true" load="100.0"/>
-        <allocation task-id="12" resource-id="3" function="4" responsible="false" load="100.0"/>
         <allocation task-id="13" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="4" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
